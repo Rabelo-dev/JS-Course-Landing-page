@@ -188,6 +188,25 @@
     border:0.1rem solid var(--primary-color);
 }
 
+.lkd_img{
+    width:2rem;
+    height:2rem;
+    padding:0;
+    margin-left: 1rem;
+}
+
+.git_img{
+    width: 4rem;
+    height:4rem;
+    margin-top: -1rem;
+    margin-left: 0.5rem;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width:800px){
     .intro-content, .grid{
         grid-template-columns: 1fr;
